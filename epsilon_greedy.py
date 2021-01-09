@@ -15,7 +15,7 @@ from rl_coach.schedules import LinearSchedule
 ####################
 
 schedule_params = ScheduleParameters()
-schedule_params.improve_steps = TrainingSteps(2000)
+schedule_params.improve_steps = TrainingSteps(25000)
 schedule_params.steps_between_evaluation_periods = EnvironmentEpisodes(10)
 schedule_params.evaluation_steps = EnvironmentEpisodes(1)
 schedule_params.heatup_steps = EnvironmentSteps(1000)
